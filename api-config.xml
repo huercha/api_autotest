@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <!-- 必须的配置，api的根路径，在调用api时用于拼接 -->
+    <!-- <rootUrl>http://chronos2c.ihealthlabs.com.cn/dataservice</rootUrl> -->
+    <rootUrl>http://120.92.2.162/dataservice_mi</rootUrl>
+    <!-- 非必须配置，配置后在调用api时会将对应的name:value值设置到所有请求的请求头中header-name:header-value --> 
+    <headers>
+        <header name="Content-Type" value="application/json"></header>
+        <header name="x-access-token" value="eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1dWlkIjoiRE9DXzJ0MXJjSHRMSDUiLCJ2ZXJzaW9uIjoiIiwiaWF0IjoxNTA4MzE2NTQ5fQ.iWAcfjuxVHYr5jg7nKzCpe-cpMw5N4mDiv4noNMpUDg"></header>
+    </headers>
+    <!-- 非必须配置，公共参数，通常放置初始化配置数据，所有用例执行前，会将params下所有的param配置进行读取并存储到公共参数池中，在用例执行时，使用特定的关键字(${param_name})可以获取 -->
+    <params>
+    	<param name="phone" value="99911110000"></param>
+    	<param name="password" value="110000"></param>
+    	<param name="patient_name" value="%E8%83%A1%E5%B0%94%E6%9F%A5"></param>
+    	<param name="patient_uuid" value="PAT_qtAm4Jw6iD"></param>
+    </params>
+    <!-- 项目名称，会在html报告中使用 -->
+    <project_name>接口自动化测试报告</project_name>
+</root>

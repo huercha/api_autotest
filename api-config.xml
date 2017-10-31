@@ -10,8 +10,8 @@
     </headers>
     <!-- 非必须配置，公共参数，通常放置初始化配置数据，所有用例执行前，会将params下所有的param配置进行读取并存储到公共参数池中，在用例执行时，使用特定的关键字(${param_name})可以获取 -->
     <params>
-    	<param name="phone" value="99911110000"></param>
-    	<param name="password" value="110000"></param>
+    	<param name="phone" value="18002072726"></param>
+    	<param name="password" value="000000"></param>
     	<param name="patient_name" value="%E8%83%A1%E5%B0%94%E6%9F%A5"></param>
     	<param name="patient_uuid" value="PAT_qtAm4Jw6iD"></param>
     </params>

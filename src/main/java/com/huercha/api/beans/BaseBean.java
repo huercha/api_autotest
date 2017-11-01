@@ -1,8 +1,5 @@
 package com.huercha.api.beans;
 
-/**
- * 基础类
- */
 public class BaseBean {
 
 	private String excelName;

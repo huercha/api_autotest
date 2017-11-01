@@ -104,7 +104,7 @@ public class ApiDataBean extends BaseBean {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return String.format("测试用例：%s", this.desc);
+		return String.format("%s", this.desc);
 	}
 
 }
